@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class PreparedStatementExample {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/student";
+        String url = "jdbc:mysql://localhost:3306/your_Database_name";//Replace with your databale name
         String username = "root";
-        String password = "4079";
+        String password = "Your Password";//Replace it with your Password
         String Query = "INSERT INTO info (id, name, `class`, roll) VALUES (?, ?, ?, ?)";
 
         try {
