@@ -2,9 +2,9 @@ import java.sql.*;
 
 public class DataInsertion {
     public static void main(String[] args) throws ClassNotFoundException {
-        String url = "jdbc:mysql://localhost:3306/student";
+        String url = "jdbc:mysql://localhost:3306/DATABASE_NAME";
         String username = "root";
-        String password = "4079";
+        String password = "YOUR_PASSWORD";
         String query = "INSERT INTO Info(id, name, class, roll) VALUES (6, 'Shubham', 'CMA', 205);";
 
         try {
