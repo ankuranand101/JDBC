@@ -6,9 +6,9 @@ import java.sql.SQLException;
 public class DatabaseConnector {
     public static void main(String[] args){
         // Database URL, username, and password
-        String url = "jdbc:mysql://localhost:3306/student"; // Replace 'your_database' with your actual database name
+        String url = "jdbc:mysql://localhost:3306/your_database"; // Replace 'your_database' with your actual database name
         String user = "root"; // Replace with your MySQL username
-        String password = "4079"; // Replace with your MySQL password
+        String password = "Your Password"; // Replace with your MySQL password
 
         // Establish connection
         try {
