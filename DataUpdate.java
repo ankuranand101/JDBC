@@ -5,9 +5,9 @@ import java.sql.Statement;
 
 public class DataUpdate {
     public static void main(String[] args) throws ClassNotFoundException {
-        String url = "jdbc:mysql://localhost:3306/student";
+        String url = "jdbc:mysql://localhost:3306/DATABSE_NAME";
         String username = "root";
-        String password = "4079";
+        String password = "Your Password";
         String query = "UPDATE Info \n"+ "SET name = 'Gauri', class = '2nd Yr' \n" + "WHERE id = 3;";
 
         try {
